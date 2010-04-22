@@ -9,11 +9,11 @@ task :default => "spec:suite"
 begin
   require "jeweler"
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name        = "redis-store"
+    gemspec.name        = "xlymian-redis-store"
     gemspec.summary     = "Rack::Session, Rack::Cache and cache Redis stores for Ruby web frameworks."
     gemspec.description = "Rack::Session, Rack::Cache and cache Redis stores for Ruby web frameworks."
     gemspec.email       = "guidi.luca@gmail.com"
-    gemspec.homepage    = "http://github.com/jodosha/redis-store"
+    gemspec.homepage    = "http://github.com/xlymian/redis-store"
     gemspec.authors     = [ "Luca Guidi" ]
   end
 
